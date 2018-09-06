@@ -19,3 +19,5 @@ to register send request to **localhost:3000/register** with data **email, passw
 to login send request to **localhost:3000/login** with data **email, password**
 
 on sending the same request for login you will notice that the response will be changed as now the redis cache is sending the response.
+
+don't forget to run the redis before testing this code
